@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="es" dir="ltr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+
+        <title>Challenge 1</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
+
+        <script type="text/javascript" src="script.js"></script>
+
+        
+    </head>
+
+    <body>
+
+        <div class="container">   
+            
+                <div class="logo">
+                    <img src="Vector.png" class="logoImg">
+                    <h1 class="tittle">Encriptador de Mensajes</h1>
+                </div>
+
+                <div class="left">
+                    <input id="textoInicial" type="text" class="text-input" placeholder="Ingrese el texto para encriptar">
+                </div>
+
+                <div class="right">
+                    <img src="Muneco.png" id="img-nino">
+                    <h1 id="texto1">Ningun mensaje encontrado</h1>
+                    <textarea id="texto2" cols="30" rows="10">Aqui vera su informacion encriptada, por favor no divulge el secreto</textarea>
+                    <button id="copiar" type="button"  name="button" onclick="copiar()">Copiar</button>
+                </div>
+
+                <div class="areaBoton">
+                    <p class="anuncio">&#10071; Use solo minusculas y sin acentos</p>
+                    <button  id="boton-encriptar" type="button" onclick="encriptar()">&sum;ncriptar</button>
+                    <button  id="boton-desencriptar" type="button" onclick="desencriptar()">Desencriptar &#9765;</button>
+                </div>
+        
+        </div>
+
+    </body>
+
+    <footer>
+        <p class="copyright">&copy Copyright Heryk Guillen-2022</p>
+    </footer>
+
+</html>

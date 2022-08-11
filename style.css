@@ -1,0 +1,201 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #F3F5FC;
+    font-family: 'Mouse Memoirs', sans-serif;
+    
+
+    
+    
+}
+.container{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    
+
+}
+
+.logo{
+    width: 100%;
+    float: left;
+    
+}
+
+.left{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+    
+
+}
+
+.right{
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 15%;
+    background: white;
+
+}
+
+.areaBoton{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+    
+    
+
+}
+
+.logoImg{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+    
+}
+
+.tittle{
+    
+    float: inherit;
+    margin-left: 20%;
+    padding-top: 10px;
+    background: #F3F5FC;
+    font-size: 40px;
+}
+
+.text-input{
+    float:left;
+    margin-left: 10%;  
+    margin-top: 10%;
+    width: 80%;
+    height: 60%;
+    color: #0A3871;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background: #F3F5FC;
+    font-family: 'Mouse Memoirs', sans-serif;
+    
+
+}
+
+#img-nino{
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+    margin-left: 3%;
+}
+
+#texto1{
+    margin-left: 7%;
+    margin-right: 7%;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+#texto2{
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-top:15px;
+    color:#0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    
+
+    
+
+}
+
+#boton-encriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    font-size: 18px;
+    background: #327bd4;
+    cursor: pointer;
+    transition: 1s all;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+#boton-encriptar:hover{
+    transform: scale(1.1);
+}
+
+#boton-desencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    font-size: 18px;
+    background: #D8DFE8;
+    cursor: pointer;
+    transition: 1s all;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+#boton-desencriptar:hover{
+    transform: scale(1.1);
+}
+
+#copiar{
+    margin-left: 33%;   
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    cursor: pointer;
+    display: none;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.anuncio{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.copyright{
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: center;
+    padding: 65px;
+    background: rgb(37,148,194);
+    background: radial-gradient(circle, rgba(37,148,194,1) 32%, rgba(23,50,166,1) 95%);
+}
+
+@media screen and (max-width:480px){
+    .logo{
+        text-align: center;
+    }
+    
+    .container{
+        width: auto;
+    }
+
+    #boton-encriptar, #boton-desencriptar{
+
+        width: auto;
+    
+    }
+    .areaBoton{
+        width: 100%;
+    }
+
+    
+
+}
+
+
